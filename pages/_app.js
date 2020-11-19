@@ -1,12 +1,11 @@
-import Navigation from "../components/Navigation/Navigation";
+import React from "react";
+
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navigation />
       <Component {...pageProps} />
-      <footer></footer>
     </>
   );
 }
